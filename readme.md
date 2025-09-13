@@ -28,11 +28,14 @@ For modeling, I would use the below models to predict the price of used cars wit
 4. Random Forest Regression
 
 ## Evaluation
-                        RMSE        R2
-Linear Regression      9023.950148  0.622316
-Lasso Regression       9023.936045  0.622317
-Polynomial Regression  8361.569739  0.675727
-Random Forest          6439.219794  0.807690
+## Model Performance Comparison
+
+| Model                 | RMSE        | R2       |
+|-----------------------|-------------|----------|
+| Linear Regression     | 9023.950148 | 0.622316 |
+| Lasso Regression      | 9023.936045 | 0.622317 |
+| Polynomial Regression | 8361.569739 | 0.675727 |
+| Random Forest         | 6439.219794 | 0.807690 |
 
 1. check this link for more details: https://github.com/licyambrose/carpriceproject/blob/main/assignment_2_carprice_prediction.ipynb
 2. We found that the Random Forest Regression model performed the best with an RMSE of 6439.219794 and an R2 score of 0.807690 on the test set.
